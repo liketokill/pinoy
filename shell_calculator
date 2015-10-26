@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Hello This is SMART CALCULATOR"
+echo "Input Your first number"
+read A
+echo "Input Your second number"
+read B
+echo "Input Your symbol"
+read C
+echo "Your answer is"
+expr $(($A $C $B))
